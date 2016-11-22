@@ -1,4 +1,8 @@
 <?php
+if (extension_loaded('mysqli')) {
+    echo 'extension mysqli is loaded'; //works
+}
+
 
 class DbOperation
 {
